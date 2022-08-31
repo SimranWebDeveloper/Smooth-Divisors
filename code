@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+int n,m,say=0,i;
+cin>>n;
+for(i=1;i<=n;i++)
+{if(n%i==n/i)
+say++;}
+cout<<say;
+return 0;
+}
